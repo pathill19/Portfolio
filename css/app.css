@@ -1,7 +1,20 @@
 /*Universal Styles*/
+@font-face {
+    font-family: Before The Rain;
+    src: url(../fonts/BeforeTheRain.ttf);
+}
 body{
-	font-family: ;
-	
+	font-family: Lato, sans-serif;
+}
+h1, h2, h3, h4{
+	font-family: Lato, sans-serif;
+}
+
+h1::first-letter {
+	color:#D34376;
+}
+img{
+	margin-bottom: 20px;
 }
 /*End Universal Styles*/
 /*Start Navigation Styles*/
@@ -9,8 +22,9 @@ body{
 	background-color: #fff;
 }
 .top-bar ul{
-		background-color: transparent;
-	}
+	background-color: transparent;
+	float: right;
+}
 .title-bar{
 	background-color: #fff;
 }
@@ -30,14 +44,23 @@ body{
 /*Start Heading Styles*/
 .hero{
 	text-align: center;
-	margin-top: 1rem;
-	/*min-height: 400px;*/
+	padding: 8rem 0;
+	/*background: url(../img/herobg.png);*/
+	/*min-height: 200px;*/
+	/*background-image: linear-gradient(#fff,#fff, #EEB0B5, #D34376) ;*/
 }
-
+.hero p{
+	margin: 1rem 0;
+}
+.after-hero{
+	margin: 1rem;
+}
+.firstlet{
+		color:#D34376;
+}
 .script{
-	font-family: "Before the Rain";
-	margin: 0;
-	padding: 0;
-	text-decoration:underline #D34376;
+	font-family: "Before the Rain", cursive;
+	color: #000;
+	font-weight: 900;
 }
 /*End Heading Styles*/
