@@ -11,9 +11,11 @@ h1, h2, h3, h4{
 	font-family: Lato, sans-serif;
 	font-weight: bold;
 }
-
+h1{
+	text-align: center;
+}
 h1::first-letter {
-	color:#D34376;
+	color:#86d2f2;
 }
 img{
 	margin-bottom: 2rem;
@@ -21,9 +23,13 @@ img{
 p{
 	margin-bottom: 2rem;
 }
+video{
+	text-align: center;
+}
 /*End Universal Styles*/
 /*Start Navigation Styles*/
 .top-bar{
+	border-top:2px solid #86d2f2; 
 	background-color: #fff;
 }
 .top-bar ul{
@@ -37,14 +43,14 @@ p{
 	background-color: #fff;
 	color: #000;
 }
-.menu-icon::after{
+/*.menu-icon::after{
 	background: #D34376;
 	box-shadow: 0 7px 0 #D34376, 0 14px 0 #D34376;
 }
 .menu-icon:hover::after{
 	background: #D34376;
 	box-shadow: 0 7px 0 #D34376, 0 14px 0 #D34376;
-}
+}*/
 /*End Navigation Styles*/
 /*Start Heading Styles*/
 .hero{
@@ -60,7 +66,7 @@ p{
 	margin: 1rem;
 }
 .firstlet{
-		color:#D34376;
+		color:#86d2f2;
 }
 .script{
 	font-family: "Before the Rain", cursive;
