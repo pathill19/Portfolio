@@ -1,4 +1,5 @@
 /*Universal Styles*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
 @font-face {
     font-family: Before The Rain;
     src: url(../fonts/BeforeTheRain.ttf);
@@ -6,6 +7,8 @@
 body{
 	font-family: Lato, sans-serif;
 	font-weight: lighter;
+	background:url("../img/207.jpg") no-repeat; /*Image attribution https://www.freepik.com/free-photos-vectors/background Background vector created by aviyabc - www.freepik.com*/
+	background-size: cover; 
 }
 h1, h2, h3, h4{
 	font-family: Lato, sans-serif;
@@ -31,6 +34,7 @@ video{
 .top-bar{
 	border-top:2px solid #86d2f2; 
 	background-color: #fff;
+	margin-bottom: 1em
 }
 .top-bar ul{
 	background-color: transparent;
@@ -74,3 +78,7 @@ video{
 	font-weight: 900;
 }
 /*End Heading Styles*/
+/*Other Styles*/
+.aboutP{
+	margin-top: 2rem;
+}
