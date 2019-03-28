@@ -7,8 +7,7 @@
 body{
 	font-family: Lato, sans-serif;
 	font-weight: lighter;
-	background:url("../img/207.jpg") no-repeat; /*Image attribution https://www.freepik.com/free-photos-vectors/background Background vector created by aviyabc - www.freepik.com*/
-	background-size: cover; 
+background: linear-gradient(to right, rgba(134,210,242,0.52) 0%,rgba(197,233,249,0.52) 26%,rgba(255,255,255,0.52) 50%,rgba(197,233,249,0.52) 74%,rgba(134,210,242,0.52) 100%);	/*background-size: 100% 100%; */
 }
 h1, h2, h3, h4{
 	font-family: Lato, sans-serif;
